@@ -6,10 +6,14 @@
 .custom-border {
   @apply border-[1px] border-black;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 * {
   font-family: "Ubuntu";
   margin: 0;
   font-size: 14px;
-  background-color: #f3f3f7;
+}
+
+body {
 }
