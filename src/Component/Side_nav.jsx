@@ -5,7 +5,7 @@ import { MdOutlineDashboardCustomize } from "react-icons/md";
 import { GrTransaction } from "react-icons/gr";
 
 const Side_nav = () => {
-  const [activeLink, setActiveLink] = useState("dashboard");
+  const [activeLink, setActiveLink] = useState(null);
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -16,6 +16,7 @@ const Side_nav = () => {
         <h2 className="text-purple-900 font-bold text-xl">@DOSOMECODING</h2>
         <div className=" mt-5">
           <li
+            onClick={() => handleLinkClick("dashboard")}
             className={`${
               activeLink === "dashboard" ? "bg-[#C9D6B9]" : ""
             } list-none flex items-center gap-1  p-2 rounded-xl`}
@@ -41,15 +42,9 @@ const Side_nav = () => {
             </Link>
           </li>
           <div className="absolute pl-6 mb-6 bottom-0 left-0 w-full p-4">
-            <button
-              className={`${
-                activeLink === "support" ? "bg-[#C9D6B9]" : ""
-              } flex items-center text-gray-700`}
-            >
+            <button className="flex items-center text-gray-700">
               <FaUserCircle className="mr-2" />
-              <Link onClick={() => handleLinkClick("support")} to="/support">
-                Support
-              </Link>
+              <Link to="/support">Support</Link>
             </button>
           </div>
         </div>
