@@ -7,7 +7,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const Chart_history = () => {
   return (
-    <div className="mt-8 gap-7 custom-border flex justify-between ">
+    <div className="mt-8 gap-7 flex justify-between ">
       <div className=" relative h-90 bg-white p-4 rounded-xl flex-1">
         {/* chart Conmonent */}
         <div className=" flex justify-between items-center">

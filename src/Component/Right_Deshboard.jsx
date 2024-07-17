@@ -2,6 +2,7 @@ import React from "react";
 import { VscAccount } from "react-icons/vsc";
 import Portfolio from "./Portfolio";
 import Chart_history from "./Chart_history";
+import Details from "./Details";
 
 const Right_Deshboard = () => {
   return (
@@ -13,6 +14,7 @@ const Right_Deshboard = () => {
       <div className="px-28 ">
         <Portfolio></Portfolio>
         <Chart_history></Chart_history>
+        <Details></Details>
       </div>
     </div>
   );

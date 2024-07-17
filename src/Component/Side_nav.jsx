@@ -6,7 +6,7 @@ import { GrTransaction } from "react-icons/gr";
 
 const Side_nav = () => {
   return (
-    <div className="w-64 custom-border">
+    <div className="w-64 ">
       <div className="mb-6  mt-14  mx-5">
         <h2 className="text-purple-900 font-bold text-xl">@DOSOMECODING</h2>
         <div className=" mt-5">

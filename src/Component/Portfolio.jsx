@@ -7,7 +7,7 @@ import { HiOutlineUpload } from "react-icons/hi";
 const Portfolio = () => {
   return (
     <div>
-      <div className="h-28 custom-border flex justify-between items-center p-6 bg-white mt-8 rounded-xl">
+      <div className="h-28  flex justify-between items-center p-6 bg-white mt-8 rounded-xl">
         <div className="gap-4 flex flex-col">
           <p>Total Portfolio Value</p>
           <span className="flex gap-1 font-[600] text-2xl text-black items-center">
