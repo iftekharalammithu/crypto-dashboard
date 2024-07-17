@@ -100,7 +100,7 @@ const Support = () => {
           </div>
         </div>
         <div className="flex bg-white  mt-24 rounded-xl">
-          <div className="p-2 flex flex-col  gap-4  flex-1">
+          <div className="p-2 flex  rounded-xl flex-col  gap-4  flex-1">
             <AiFillMessage className="h-7 w-7" />
             <h1 className="font-[800] text-3xl">Live Chat</h1>
             <p>Don’t have time to wait for the answer? Chat with us now.</p>
