@@ -13,7 +13,7 @@ const Side_nav = () => {
           <li className="list-none bg-[#C9D6B9] flex items-center gap-1 p-2 rounded-xl">
             <MdOutlineDashboardCustomize />
 
-            <Link to="/dashboard">Dashboard</Link>
+            <Link to="/">Dashboard</Link>
           </li>
           <li className="list-none flex items-center gap-1  p-2 rounded-xl">
             <GrTransaction />
@@ -23,7 +23,7 @@ const Side_nav = () => {
           <div className="absolute pl-6 mb-6 bottom-0 left-0 w-full p-4">
             <button className="flex items-center text-gray-700">
               <FaUserCircle className="mr-2" />
-              Support
+              <Link to="/support">Support</Link>
             </button>
           </div>
         </div>

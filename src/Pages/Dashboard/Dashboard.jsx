@@ -4,8 +4,8 @@ import Right_Deshboard from "../../Component/Right_Deshboard";
 
 const Dashboard = () => {
   return (
-    <div className="flex h-screen">
-      <Side_nav></Side_nav>
+    <div className="h-screen">
+      {/* <Side_nav></Side_nav> */}
       <Right_Deshboard></Right_Deshboard>
     </div>
   );

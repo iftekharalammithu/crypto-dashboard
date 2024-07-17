@@ -6,7 +6,7 @@ import Details from "./Details";
 
 const Right_Deshboard = () => {
   return (
-    <div className="bg-[#C9D6B9] flex-1">
+    <div className="bg-[#C9D6B9]  flex-1">
       <div className="bg-white px-28 justify-between items-center flex h-16">
         <h1 className=" font-[800] text-3xl text-[#000000]">Dashboard</h1>
         <VscAccount className="h-12 w-12" />
